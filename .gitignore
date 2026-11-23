@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.*
+
+# Composer
+/vendor/
+
+# Node.js
+/node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Cache and temp
+cache/
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.bak
+*.sql.bak
+*.dump

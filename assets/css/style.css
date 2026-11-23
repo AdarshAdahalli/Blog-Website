@@ -1,0 +1,176 @@
+/* Global Styles - BlogSphere */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #2b2d42;
+    background-color: #f8f9fa;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #ffffff;
+    padding: 5rem 0 4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -20%;
+    width: 140%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(13, 110, 253, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+    pointer-events: none;
+}
+
+/* Card Improvements */
+.blog-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: none;
+    border-radius: 0.75rem;
+    background: #ffffff;
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.blog-card-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.category-badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.75em;
+    border-radius: 50rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Stat Cards */
+.stat-card {
+    border: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Stat Card Links & Interactive Hover */
+.stat-card-link {
+    text-decoration: none !important;
+    display: block;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.stat-card-link:hover .card {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18) !important;
+    filter: brightness(1.05);
+}
+
+/* Footer Styling & High Contrast */
+footer {
+    background-color: #0f172a !important;
+}
+
+footer a {
+    color: #cbd5e1 !important;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+footer a:hover {
+    color: #38bdf8 !important;
+    padding-left: 4px;
+}
+
+/* Timeline for messages / revisions */
+.timeline {
+    border-left: 3px solid #0d6efd;
+    padding-left: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+/* Rendered HTML Blog Output Styling */
+.blog-rendered-html-output {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #212529;
+}
+
+.blog-rendered-html-output h1,
+.blog-rendered-html-output h2,
+.blog-rendered-html-output h3,
+.blog-rendered-html-output h4,
+.blog-rendered-html-output h5,
+.blog-rendered-html-output h6 {
+    color: #0f172a;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.85rem;
+}
+
+.blog-rendered-html-output p {
+    margin-bottom: 1.25rem;
+}
+
+.blog-rendered-html-output img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.blog-rendered-html-output pre {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.25rem 0;
+}
+
+.blog-rendered-html-output code {
+    font-size: 0.9em;
+}
+
+.blog-rendered-html-output blockquote {
+    border-left: 4px solid #0d6efd;
+    padding: 0.75rem 1.25rem;
+    background-color: #f8fafc;
+    border-radius: 0 0.5rem 0.5rem 0;
+    font-style: italic;
+    color: #475569;
+    margin: 1.25rem 0;
+}
+
+.blog-rendered-html-output table {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    border-collapse: collapse;
+}
+
+.blog-rendered-html-output table th,
+.blog-rendered-html-output table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+}
+
+.blog-rendered-html-output table th {
+    background-color: #f1f5f9;
+}

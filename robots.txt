@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /blog-platform/
+Allow: /blog-platform/user/blogs.php
+Allow: /blog-platform/user/blog_details.php
+Allow: /blog-platform/uploads/
+Allow: /blog-platform/assets/
+Disallow: /blog-platform/admin/
+Disallow: /blog-platform/employee/
+Disallow: /blog-platform/config/
+Disallow: /blog-platform/includes/
+Disallow: /blog-platform/auth/
+
+# Dynamic XML Sitemap
+Sitemap: http://localhost:8080/blog-platform/sitemap.php

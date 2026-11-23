@@ -1,0 +1,17 @@
+==================================================
+BlogSphere Sample Attachment Document
+Title: Introduction to Cloud Computing Architecture
+Author: John Writer (BlogSphere)
+==================================================
+
+Thank you for downloading this reference document from BlogSphere.
+
+SUMMARY OF CLOUD COMPUTING MODELS:
+1. Infrastructure as a Service (IaaS): Provision compute, storage, networks.
+2. Platform as a Service (PaaS): Manage applications without managing infrastructure.
+3. Software as a Service (SaaS): Access web-based applications directly.
+
+KEY BENEFIT:
+Scalability, Cost Efficiency, and Reliability.
+
+© BlogSphere Publishing System

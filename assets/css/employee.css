@@ -1,0 +1,13 @@
+/* Employee Portal Styling */
+.editor-toolbar {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-bottom: none;
+    border-radius: 0.375rem 0.375rem 0 0;
+    padding: 0.5rem;
+}
+
+.editor-textarea {
+    border-radius: 0 0 0.375rem 0.375rem;
+    min-height: 250px;
+}

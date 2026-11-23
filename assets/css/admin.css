@@ -1,0 +1,23 @@
+/* Admin Panel Specific Styling */
+.admin-sidebar {
+    min-height: calc(100vh - 56px);
+    background-color: #111827;
+    color: #9ca3af;
+}
+
+.admin-sidebar .nav-link {
+    color: #9ca3af;
+    border-radius: 0.375rem;
+    padding: 0.65rem 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.admin-sidebar .nav-link:hover, .admin-sidebar .nav-link.active {
+    color: #ffffff;
+    background-color: #1f2937;
+}
+
+.admin-header-badge {
+    background-color: #374151;
+    color: #f3f4f6;
+}
